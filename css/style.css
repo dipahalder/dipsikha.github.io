@@ -1,0 +1,134 @@
+body {
+	color: #595959;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 0.5px;
+	margin: 50px auto 0 auto;
+	width: 750px;
+	height: 90%;
+    font-weight: 100;
+    letter-spacing: 1px;
+
+}
+
+h2 {
+    font-size: 125%;
+    font-weight: 100;
+    margin-bottom: -10px;
+}
+
+p  {
+    font-size: 90%;
+}
+
+a {
+    color: #1abc9c;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #16a085;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.about-me {
+	width: 675px;
+	margin: 0 auto;
+}
+
+.topbar {
+	position:fixed;
+	top: 5px;
+	width: 750px;
+	height: 40px;
+	background-color: white;
+	opacity: 0.95;
+	z-index: 100;
+}
+
+
+.topbar-link {
+	display: inline-block;
+	text-align: center;
+	margin: 0px 10px 10px 10px;
+	float: right;
+	margin-top: 7.5px;
+	padding-bottom: 5px;
+}
+
+.topbar-link a {
+	color: #595959;
+}
+
+.topbar-link a:hover {
+    text-decoration: none;
+    color: #16a085
+}
+
+.self {
+	opacity: 0.95;
+}
+
+.social-media {
+	height: 20px;
+    width: 20px;
+    font-weight: 100;
+    font-size: 16px;
+    display: inline-block;
+    color: #595959;
+}
+
+.social-media a {
+	color: #595959;
+
+}
+
+.social-media a:hover {
+	text-decoration: none;
+    color: #1abc9c;
+    font-weight: 700;
+}
+
+.footer {
+	margin-left: -10px;
+}
+
+/* Styling for typed.js */
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+
+
+
+

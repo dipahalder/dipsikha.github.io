@@ -1,0 +1,170 @@
+body {
+	color: #595959;
+	font-family: Open Sans,'Oxygen', sans-serif;
+	margin: 0; 
+	padding: 0;
+	letter-spacing: 0.5px;
+}
+
+h2 {
+    font-size: 115%;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 2px;
+}
+
+
+p {
+    font-size:90%;
+    margin-top: 0px;
+}
+
+a {
+    color: #1abc9c;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #16a085;
+
+}
+
+b {
+	color: black;
+	letter-spacing: 2px;
+}
+
+.topbar {
+	position:fixed;
+	top:0;
+	width: 800;
+	height: 40px;
+	background-color: white;
+	opacity: 0.95;
+	z-index: 100;
+}
+
+.button {
+	display: inline-block;
+	text-align: center;
+	margin: 0px 10px 10px 10px;
+	float: right;
+	margin-top: 7.5px;
+	padding-bottom: 5px;
+}
+
+.button a {
+	color: #595959;
+}
+
+.button a:hover {
+    text-decoration: none;
+    color: #16a085
+}
+
+.content {
+	margin: 50px auto 0 auto;
+	width: 90%;
+}
+
+.content {
+	width: 800px;
+	height: 100%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.wrapper {
+	margin-right: 150px;
+}
+
+.module {
+  margin: 2.5px;
+  margin-bottom: 25%
+
+}
+
+.module-1 {
+	margin-right: 15px;
+	text-align: right;
+	margin-top: 35px;
+}
+
+
+
+.col-2-2 {
+	width: 50%;
+	float: left;
+  	padding-right: $pad;
+  	.grid &:last-of-type {
+  	padding-right: 5px;
+  	margin-right: 10px;
+  }
+}
+
+
+.subtext {
+	font-size: 85%;
+}
+
+.resume-header {
+	width: 600px;
+	height: 15%;
+	margin: 0 auto;
+	margin-top: 50px;
+	line-height: 0.5;
+	font-weight: bold;
+}
+
+.intro {
+	color: black;
+	margin-top: 25px;
+	width: 600px;
+	line-height: 15px;
+	margin-left: 150px;
+	height: 50px;
+}
+
+br  .start {
+	margin-top: 25px;
+}
+
+.Facebook {
+	margin-bottom: 33px;
+	margin-top: 25px;
+}
+
+.C1 {
+	margin-bottom: 13px;
+}
+
+.Gitlet {
+	margin-bottom: 34px;
+}
+
+.Swatch {
+	margin-bottom: 14px;
+}
+
+.Kickstart {
+	margin-bottom: 35px;
+}
+
+.Skills {
+	margin-bottom: 32px;
+}
+
+.Organizations {
+	margin-bottom: 86px;
+}
+
+.Education {
+
+}
+
