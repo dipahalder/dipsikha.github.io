@@ -1,0 +1,191 @@
+body {
+	color: #595959;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 0.5px;
+	margin: 50px auto 0 auto;
+	width: 750px;
+	height: 90%;
+    font-weight: 100;
+    letter-spacing: 1px;
+
+}
+
+h2 {
+    font-size: 125%;
+    font-weight: 100;
+    margin-bottom: -10px;
+}
+
+
+a {
+    color: #1abc9c;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #16a085;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.about-me {
+	width: 675px;
+	margin: 0 auto;
+}
+
+.topbar {
+    position: fixed;
+    top: 0px;
+    padding-top: 5px;
+    width: 750px;
+    height: 40px;
+    background-color: white;
+    opacity: 0.95;
+    z-index: 100;
+}
+
+
+.topbar-link {
+	display: inline-block;
+	text-align: center;
+	margin: 0px 10px 10px 10px;
+	float: right;
+	margin-top: 7.5px;
+	padding-bottom: 5px;
+}
+
+.topbar-link a {
+	color: #595959;
+}
+
+.topbar-link a:hover {
+    text-decoration: none;
+    color: #16a085
+}
+
+
+.sphere {
+	margin-top: 80px;
+}
+
+
+.demo {
+    position:absolute;
+    z-index: 1;
+}
+
+.sphere_video {
+    position:absolute;
+    z-index: 2;
+    padding-top: 60px;
+    padding-left: 16.5px;
+}
+
+.swatch_video {
+    position:absolute;
+    z-index: 2;
+    padding-top: 48px;
+    margin-left: -50px;
+}
+
+.camera {
+    position:absolute;
+    z-index: 2;
+    padding-top: 60px;
+    padding-left: 16.5px;
+}
+
+
+body h4 {
+	color: #595959;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 0.5px;
+	margin: 30px auto 0 auto;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.description h4 {
+	width: 400px;
+}
+
+.description .section-title {
+	width: 400px;
+	padding-top: 20px;
+}
+
+#left {
+  width: 400px;
+  float: left;
+}
+
+#right {
+  margin-left: 450px; 
+}
+
+#left1 {
+  margin-left: 350px; 
+}
+
+#right1 {
+  width: 300px;
+  float: left;
+  margin-top: -30px;
+}
+
+#container {
+	margin-top: 75px;
+}
+
+.carousel1 {
+	position: relative;
+	padding: 550px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+.mockup {
+	padding-right: 60px;
+	padding-left: 30px;
+}
+
+.demo2 {
+    position:absolute;
+    z-index: 1;
+}
+
+.sphere_video2 {
+    position:absolute;
+    z-index: 2;
+    padding-top: 51px;
+    padding-left: 15px;
+}
+
+.sphere_video3 {
+    position:absolute;
+    z-index: 2;
+    padding-top: 30px;
+    padding-left: 14.5px;
+}
+
+#section2 {
+	padding-top: 320px;
+}
+
+.art_video {
+    position:absolute;
+    z-index: 2;
+    padding-top: 42px;
+    margin-left: 92px;
+}
+
+

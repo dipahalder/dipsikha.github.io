@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Dipsikha</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <link href="http://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" type="text/css" href="css/portfolio.css" />
+      <script type="text/javascript" src="js/portfolio.js"></script>
+      <script type="text/javascript" src="portfolio.js"></script>
+</head>
+<body>
+	
+	<div class="topbar">
+		<div class="topbar-link"><a href="mailto:dhalder@berkeley.edu">contact</a></div>
+    <div class="topbar-link"><a href="./">portfolio</a></div>
+		<div class="topbar-link"><a href="../resume.html">resume</a></div>
+    <div class="topbar-link"><a href="../index.html">home</a></div>
+	</div>
+
+
+  <div id="container" margin-top="50px">
+    <div id="left">
+      <div id="section1">
+      <div class="section-title" style="padding-top: 30px;">
+        We built our embedded spherical camera from scratch.
+      </div>
+      <h4>To begin, you center the camera over a blue dot and hover until a frame of the scene appears. Rotate your device, following the dots to capture your photosphere.
+      <p>Each picture you take is attached to the corresponding section of a sphere to which your device points. When you view a photosphere in compass-mode, the inverse occurs—changes in your device's compass coordinates are mapped to the image rendered on the screen via linear transformations.</p></h4>
+    </div>
+    <div id="section2">
+      <div class="section-title">As UI lead, I also worked on the new user experience, log in, and intermediate views.</div>
+      <h4>Photospheres are massive files (They contain XMP metadata serialized and embedded inside the image). One of the biggest challenges was creating a pleasant user experience in which views load quickly and smoothly. Parse and Square's Picasso were used to make this flow more efficient.</h4>
+    </div>
+  </div>
+
+    <div id="right">
+      <div class = "mockup">
+        <img src="img/android_device_mockup.png" class = "demo2" width="230px">
+        <video 
+            class="sphere_video3" 
+            src="res/camerademo.mp4" 
+            autoplay="true" 
+            loop="true" 
+            muted="true" 
+            width="204.5px" 
+            height="390px">
+        </video>
+      </div>
+      <div class="carousel1">
+        <img src="img/NUX.png">
+      </div>
+    </div>
+  </div>
+			
+</body>
+</html>
