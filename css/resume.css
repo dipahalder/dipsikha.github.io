@@ -40,6 +40,7 @@ b {
 	letter-spacing: 2px;
 }
 
+
 .topbar {
 	position:fixed;
 	top: 0;
@@ -58,6 +59,13 @@ b {
 	float: right;
 	margin-top: 7.5px;
 	padding-bottom: 5px;
+}
+
+.contact_info {
+	margin-top: 5px; 
+	width: 600px; 
+	margin-left: 175px; 
+	line-height: 18px
 }
 
 .button a {
@@ -121,6 +129,7 @@ b {
 	margin-top: 50px;
 	line-height: 0.5;
 	font-weight: bold;
+	margin-bottom: 0;
 }
 
 .intro {
@@ -136,9 +145,18 @@ br  .start {
 	margin-top: 25px;
 }
 
-.Facebook {
-	margin-bottom: 33px;
+.Pinterest {
+	margin-bottom: 15px;
 	margin-top: 25px;
+}
+
+.CreditSuisse {
+	margin-bottom: 20px;
+}
+
+.Facebook {
+	margin-bottom: 15px;
+	margin-top: 33px;
 }
 
 .C1 {
@@ -146,11 +164,11 @@ br  .start {
 }
 
 .Gitlet {
-	margin-bottom: 35px;
+	margin-bottom: 34px;
 }
 
 .Swatch {
-	margin-bottom: 13px;
+	margin-bottom: 14px;
 }
 
 .Kickstart {
